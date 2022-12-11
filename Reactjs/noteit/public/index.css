@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-color: dodgerblue;
+  padding: 1rem 3rem 1rem 3rem;
+  box-shadow: 0px 0px 8px 3px rgb(0, 195, 255);
+  letter-spacing: 1px;
+  display: flex;
+  justify-content:space-between;
+  color: #fff;
+}
+header .logo{
+ flex:1 1; 
+ font-style: italic;
+ font-weight: 500;
+}
+header .clock{
+  flex:1 1;
+  text-align: center;
+  font-weight:400px;
+  letter-spacing: 1px;
+}
+.note{
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 250px;
+  margin: 1rem;
+  box-shadow: 2px 2px 10px #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 200px;
+}
+
+.note h2{
+  font-size:1.3rem;
+  border-bottom: 1px solid #ccc;
+}
+.note p{
+   font-size: 1.1rem;
+}
+footer{
+  text-align: center;
+  padding: 1.1rem;
+  background-color: dodgerblue;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  color: #fff;
+
+}
+form{
+  width:500px;
+  margin:30px auto;
+  background :#fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+form input{
+  padding:1rem;
+  border-radius: 10px;
+}
+form textarea{
+  padding:1rem;
+  margin: 1rem 0;
+  resize: vertical;
+  border-radius: 10px;
+}
+form button{
+  padding: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form input,form textarea,form button{
+  border: none;
+  outline: none;
+}

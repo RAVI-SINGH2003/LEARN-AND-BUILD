@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+html{
+    font-size:62.5%;
+}
+
+/* ############################ utility classes ############################ */
+.container{
+    max-width:1400px;
+    width:90%;
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+
+/* ######################## header-styling ################################## */
+.header{
+    border-bottom: 3px solid #e8a32c;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.header-wrapper h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* ########################### section1-styling ############################### */
+.section1{
+
+    padding: 2rem 0
+}
+.section1 #section1-heading{
+    text-align: center;
+    font-size:2rem;
+
+    font-weight: 500;
+
+}
+.section1-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:3rem 0 ;
+    
+    
+}
+.section1 .points-wrapper{
+    flex:1 1 60%;
+    padding:1rem 2rem;
+    margin:auto;
+}
+.points{
+    list-style-type : none ;
+}
+.points .points-bold {
+    background-image:url('../images/bullet.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding : 1rem 0 0 6rem;
+}
+.points-bold h3{
+    font-size:2rem;
+    font-weight: 600;    
+}
+.points-wrapper p{
+    font-size: 1.8rem;
+    margin-bottom:2rem;
+    font-weight: 400;
+    
+}
+.section1 .form{
+    flex:1 1 40%;
+    border:2px solid orange;
+    padding:1rem 2rem;
+    background-color: rgba(170, 170, 170, 0.437);
+    border-radius:10px;
+}
+.form h2{
+    font-size:2.5rem;
+    font-weight: 600;
+
+}
+.form p{
+    font-size:1.6rem;
+    margin-bottom:1rem;
+}
+.form label{
+    font-size:1.6rem;
+    margin-top:1rem;
+    width:120px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.required::after{
+    color: #e32;
+    content: ' *';
+    margin-right:1rem; 
+}
+.form input{
+   display: inline-block;
+   border-radius:10px;
+   padding:0.8rem;
+   width:300px;
+   outline:none;
+   border:none;
+   font-size:1.6rem;
+}
+.form .btn{
+    padding:1rem 3rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(237, 172, 51);
+    color:#fff;
+    cursor: pointer;
+
+
+
+}
+.btn-container{
+text-align: center;
+}
+
+/* ################################# more-about-us-section ########################## */
+.more-about-us{
+    padding:2rem;
+}
+.more-about-us h2{
+    font-size:3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.more-about-us p{
+    font-size:1.7rem;
+}
+
+/* ##################### footer styling ################# */
+.footer{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #e8a32c;
+    color:#fff;
+    
+}
+.footer h1{
+    font-weight: 500;
+}
+

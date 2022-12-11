@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:arial;
+}
+/* ########## styling starts here########### */
+.container{
+    max-width: 500px;
+    width:90%;
+    margin: 10vh auto 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.form{
+    margin: 1rem 0;
+    padding: 10px 15px 20px 15px;
+    background-color: rgb(202, 195, 195);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #000;
+    min-height:300px;
+}
+.form label{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.form input{
+    margin-top: 1rem;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+
+}
+.form input:focus{
+    border: 1px solid black;
+}
+.form #button{
+    display: inline-block;
+    padding:0.8rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.form p{
+text-align: left;
+font-size: 1.3rem;
+}
+
+#tries{
+text-align: center;
+}
